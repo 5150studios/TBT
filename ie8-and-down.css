@@ -1,0 +1,41 @@
+.leader {
+width: 360px !important;
+float: left !important;
+}
+
+#header {
+position: relative !important;
+}
+
+#header #slideshow {
+  height: 365px;
+  left: 277px;
+  position: absolute;
+  top: 29px;
+  width: 679px;
+}
+
+#header #slideshow .bx-controls {
+  bottom: 60px;
+  display: block;
+  left: -410px;
+  margin: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#header .logo {
+  background: url("images/logo.png") no-repeat scroll center 0 transparent;
+  height: 131px;
+  left: 20px;
+  position: absolute;
+  top: 40px;
+  width: 185px;
+display: block;
+}
+
+#header #slideshow .bx-pager-item {
+display: inline;
+float: left;
+margin-right: 5px;
+}
