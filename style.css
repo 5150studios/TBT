@@ -1920,26 +1920,30 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
-#instagram {
-  height: auto;
-  width: 100%;
-}
+  #instagram {
+    height: auto;
+    width: 100%;
+  }
 
-#instagram h3 {
-  height: 50px;
-  line-height: 100%;
-  text-align: center;
-  width: 100%;
-}
+  #instagram h3 {
+    height: 50px;
+    line-height: 100%;
+    text-align: center;
+    width: 100%;
+  }
 
-#instagram img {
-  border: 3px solid #FFFFFF;
-  box-shadow: 2px 2px 4px #000000;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  max-width: 100%;
-  width: 120px;
-}
+  #instagram img {
+    border: 3px solid #FFFFFF;
+    box-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    width: 120px;
+  }
+
+  .featureboxes h2 {
+    font-size: 18px;
+  }
 
   .featureboxes .box {
     width: 30%;
