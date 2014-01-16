@@ -2170,10 +2170,12 @@ ul.thumbnails li {
 	  width: 100%;
 	}
 
-	.container {
-	  float: none;
-	  width: 100%;
-	}
+  .container {
+    display: table;
+    float: none;
+    height: 100%;
+    width: 100%;
+  }
 
 	#sidebar {
 	  float: none;
