@@ -47,7 +47,7 @@
 <div id="footer">
 	<div class="innerfooter">
 			<ul class="widgets">
-				<?php dynamic_sidebar('Footer 1'); ?>
+				<li class="first"><ul><?php dynamic_sidebar('Footer 1'); ?></ul></li>
 				<?php dynamic_sidebar('Footer 2'); ?>
 				<?php dynamic_sidebar('Footer 3'); ?>
 				<?php dynamic_sidebar('Footer 4'); ?>
