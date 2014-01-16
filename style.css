@@ -1637,6 +1637,11 @@ ul.products > .product {
   width: 160px;
 }
 
+ul.products > li.product-category {
+    margin: 0 30px 30px 0;
+    min-height: 100%;
+}
+
 ul.products > .product:nth-child(4n+4) {
   margin-right: 0;
 }
@@ -1674,6 +1679,12 @@ ul.products > .product h3 {
   margin: 0;
   padding: 5px;
   text-align: center;
+}
+
+ul.products > .product h3 .count {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #666666;
+  font-size: 12px;
 }
 
 ul.products > .product .price {
