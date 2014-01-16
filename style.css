@@ -892,6 +892,15 @@ line-height: 1.4;
 #footer .widget:first-child {
 	margin-left: 0;
 }
+
+#footer ul.menu {
+
+}
+
+#footer ul.menu li {
+  
+}
+
 #footer .widget ul {
 	margin: 20px 0 10px;
 }
@@ -903,11 +912,11 @@ line-height: 1.4;
 	list-style-type: none;
 }
 #footer a,#footer a:link,#footer a:visited {
-	color: #f5f5f5;
+	color: #cccccc;
 	text-decoration: none;
 }
 #footer a:hover,#footer a:active {
-	color: #ff781a;
+	color: #FFFFFF;
 }
 #footer input[type="text"], #footer input[type="email"] {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
