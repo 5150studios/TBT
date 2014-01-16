@@ -1399,6 +1399,7 @@ div.wpcf-field {
 
 .featureboxes h2 {
   border-bottom: 3px solid #333333;
+  color: #2D2E2D;
   display: inline-block;
   float: right;
   font-size: 24px;
@@ -1911,6 +1912,15 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
+  .featureboxes .box {
+    width: 33%;
+    margin-right: 3%; 
+  }
+
+  .featureboxes .box:last-child {
+    margin-right: 0;
+  }
+  
   ul.products > .product:nth-child(4n+4) {
     margin-right: 30px;
   }
@@ -2127,7 +2137,7 @@ ul.thumbnails li {
 	  right: -12px;
 	  top: 131px;
 	}
-  
+
 	.productcategories ul li {
 	  margin: 5px 15px 10px 0;
 	  max-width: 25%;
