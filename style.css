@@ -174,7 +174,7 @@ img.aligncenter {
   background: none repeat scroll 0 0 #FFFFFF;
   border: 1px solid #E0E0E0;
   float: left;
-  min-height: 800px;
+  min-height: 1000px;
   width: 70%;
 }
 
@@ -412,7 +412,7 @@ label {
   height: 105px;
   padding: 20px;
   position: absolute;
-  top: 70px;
+  top: 30px;
   width: 100%;
   z-index: 99;
 }
@@ -1593,11 +1593,30 @@ ul.products > .product {
   color: #212121;
   float: left;
   list-style-type: none;
-  margin: 0 2% 2% 0;
+  margin: 0 2% 10% 0;
   min-height: 340px;
   padding: 0;
   position: relative;
   width: 168px;
+}
+
+ul.products > .product:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+ul.products > .product .onsale {
+  background: none repeat scroll 0 0 #35D71C;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 12px;
+  height: 50px;
+  line-height: 1em;
+  padding-top: 20px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -10px;
+  width: 50px;
 }
 
 ul.products > .product a.button {
@@ -1627,6 +1646,12 @@ ul.products > .product .price {
   font-weight: bold;
   padding: 5px;
   text-align: center;
+}
+
+ul.products > .product .price ins .amount {
+  border: medium none;
+  color: #35D71C;
+  display: inline-block;
 }
 
 .product h3 {
