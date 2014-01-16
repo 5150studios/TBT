@@ -1990,6 +1990,11 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+  #wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    width: 100%;
+  }
+
   .featureboxes .box {
     width: 30%;
     height: auto;
@@ -2191,9 +2196,14 @@ ul.thumbnails li {
 
 @media only screen and (max-width: 479px){
 
-	#header {
-		top: 0;
-	}
+  #wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    width: 100%;
+  }
+
+  #header {
+  	top: 0;
+  }
 
 .headerslider .slide .slant.pink, .headerslider .slide .slant.military {
   left: -47%;
