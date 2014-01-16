@@ -1507,10 +1507,8 @@ ul.design-gallery a:hover, ul.design-gallery a:active {
 
 /**** WooCommerce ****/
 .container .woocommerce-ordering {
-  min-width: 20%;
-  position: absolute;
-  right: 20px;
-  top: 105px;
+  margin: 0 0 25px;
+  width: 25%;
 }
 
 .container .woocommerce-message:before {
