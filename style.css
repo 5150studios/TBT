@@ -2092,9 +2092,6 @@ ul.thumbnails li {
 	  color: #212121;
 	  float: left;
 	  list-style-type: none;
-	  min-height: 280px;
-	  padding: 2%;
-	  width: 46%;
 	}
 
 	#sidebar .widget {
