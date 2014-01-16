@@ -1916,7 +1916,7 @@ ul.thumbnails li {
   }
 
   ul.products > .product:nth-child(3n+3) {
-    margin-right: 0;
+    margin-right: 30px;
   }
 
 	#header {
@@ -1951,6 +1951,25 @@ ul.thumbnails li {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  ul.products > .product:nth-child(4n+4) {
+    margin-right: 5%
+  }
+
+  ul.products > .product:nth-child(3n+3) {
+    margin-right: 0
+  }
+
+  ul.products > li.product-category {
+  margin: 0 5% 5% 0;
+  min-height: 100%;
+  }
+
+  ul.products > .product {
+    min-height: 280px;
+    padding: 0;
+    width: 29%;
+  }
 
 	#header {
 		top: 0;
