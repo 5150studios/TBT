@@ -190,7 +190,8 @@ img.aligncenter {
 }
 
 #wrap {
-  background: url("images/background.jpg") no-repeat fixed center top / 100% 1050px #FFFFFF;
+  background: url("images/background.jpg") no-repeat scroll center top / 100% 1050px #FFFFFF;
+  border-top: 1px solid #FFFFFF;
   width: 100%;
 }
 
