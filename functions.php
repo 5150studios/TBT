@@ -36,6 +36,12 @@
 	remove_action( 'woocommerce_before_shop_loop','woocommerce_result_count', 20 );
 	remove_action( 'woocommerce_single_product_summary','woocommerce_template_single_title', 5 );
 
+	add_filter('woocommerce_product_categories_widget_args', 'woocommerce_show_empty_categories');
+	function woocommerce_show_empty_categories($cat_args){
+		$cat_args['hide_empty']=0;
+		return $cat_args;
+	}
+
 
 	function md_theme_wrapper_start() {
 	  echo '<div class="content">';
