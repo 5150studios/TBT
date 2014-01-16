@@ -1912,6 +1912,27 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
+#instagram {
+  height: auto;
+  width: 100%;
+}
+
+#instagram h3 {
+  height: 50px;
+  line-height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+#instagram img {
+  border: 3px solid #FFFFFF;
+  box-shadow: 2px 2px 4px #000000;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: 100%;
+  width: 120px;
+}
+
   .featureboxes .box {
     width: 30%;
     height: auto;
@@ -1968,6 +1989,22 @@ ul.thumbnails li {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .featureboxes .box {
+    width: 30%;
+    height: auto;
+    margin-right: 3%; 
+  }
+
+  .featureboxes .box:last-child {
+    margin-right: 0;
+  }
+
+  .featureboxes .box img.boximg {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
 
   ul.products > .product:nth-child(4n+4) {
     margin-right: 5%
