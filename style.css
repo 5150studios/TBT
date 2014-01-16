@@ -1913,14 +1913,21 @@ ul.thumbnails li {
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
   .featureboxes .box {
-    width: 33%;
+    width: 30%;
+    height: auto;
     margin-right: 3%; 
   }
 
   .featureboxes .box:last-child {
     margin-right: 0;
   }
-  
+
+  .featureboxes .box img.boximg {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
   ul.products > .product:nth-child(4n+4) {
     margin-right: 30px;
   }
