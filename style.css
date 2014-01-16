@@ -1593,11 +1593,11 @@ ul.products > .product {
   color: #212121;
   float: left;
   list-style-type: none;
-  margin: 0 2% 10% 0;
+  margin: 0 30px 80px 0;
   min-height: 340px;
   padding: 0;
   position: relative;
-  width: 168px;
+  width: 160px;
 }
 
 ul.products > .product:nth-child(4n+4) {
