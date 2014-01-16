@@ -46,12 +46,12 @@
 
 <div id="footer">
 	<div class="innerfooter">
-			<ul class="widgets">
-				<li class="first"><ul><?php dynamic_sidebar('Footer 1'); ?></ul></li>
-				<?php dynamic_sidebar('Footer 2'); ?>
-				<?php dynamic_sidebar('Footer 3'); ?>
-				<?php dynamic_sidebar('Footer 4'); ?>
-			</ul>
+			<div class="widgets">
+				<div class="first"><ul><?php dynamic_sidebar('Footer 1'); ?></ul></div>
+				<div class="second"><ul><?php dynamic_sidebar('Footer 2'); ?></ul></div>
+				<div class="third"><ul><?php dynamic_sidebar('Footer 3'); ?></ul></div>
+				<div class="fourth"><ul><?php dynamic_sidebar('Footer 4'); ?></ul></div>
+			</div>
 			<div class="clear"></div>
 
 	</div><!-- /.innerfooter -->
