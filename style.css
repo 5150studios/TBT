@@ -186,6 +186,7 @@ img.aligncenter {
   display: block;
   padding: 25px;
   width: auto;
+  position: relative;
 }
 
 #wrap {
@@ -383,11 +384,11 @@ label {
 /**** END INPUTS ****/
 /**** FLEXIBLE iFRAME ****/
 .flexible-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
 }
 .flexible-container iframe, .flexible-container object,.flexible-container embed {
 	position: absolute;
@@ -1646,7 +1647,7 @@ ul.products > .product:nth-child(4n+4) {
   margin-right: 0;
 }
 
-ul.products > .product .onsale {
+.onsale {
   background: none repeat scroll 0 0 #35D71C;
   border-radius: 50%;
   color: #FFFFFF;
@@ -1655,10 +1656,19 @@ ul.products > .product .onsale {
   line-height: 1em;
   padding-top: 20px;
   position: absolute;
-  right: -10px;
   text-align: center;
-  top: -10px;
   width: 50px;
+}
+
+ul.products > .product .onsale {
+  left: -10px;
+  right: 0;
+  top: -10px;
+}
+
+.product.featured .onsale {
+  left: 10px;
+  top: 10px;
 }
 
 ul.products > .product a.button {
@@ -1915,6 +1925,12 @@ ul.thumbnails li {
 	.content {
 	  width: 100%;
 	}
+
+  .product .images {
+    float: left;
+    margin-right: 0;
+    width: 100%;
+  }
 
 }
 
