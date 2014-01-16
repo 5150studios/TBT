@@ -658,7 +658,8 @@ margin: 0;
 
 .exercise-item {
   float: left;
-  margin: 0 20px 20px 0;
+  margin: 0 20px 60px 0;
+  min-height: 340px;
   width: 168px;
 }
 
@@ -821,6 +822,38 @@ line-height: 1.4;
 	content: "»";
 	margin-right: 5px;
 }
+
+#sidebar .widget_search {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+#sidebar .widget_search input {
+  border: medium none;
+  float: left;
+  padding: 12px;
+  width: 60%;
+}
+
+#sidebar .widget_search button {
+  background: none repeat scroll 0 0 #35D71C;
+  border: medium none;
+  color: #FFFFFF;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 8px;
+  text-align: center;
+  width: 40%;
+}
+
+#sidebar .widget_search button:hover {
+  background-color: #666666;
+  cursor: pointer;
+}
+
 /***** END SIDEBAR *****/
 /***** FOOTER *****/
 #footer {
@@ -1183,6 +1216,10 @@ div.wpcf-field {
 	display: block;
 	max-width: 100%;
 	width: 100%;
+}
+.search-loop {
+  width: 100%;
+  float: left;
 }
 .post-loop {
 	float: left;

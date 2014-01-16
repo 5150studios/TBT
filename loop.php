@@ -16,7 +16,7 @@
 					<?php if (has_post_thumbnail()) : ?>
 						<div class="post-thumb">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-								<div class="featured-image"><?php the_post_thumbnail('featured', array('class' => 'scale', 'alt' => get_the_title(), 'title' => get_the_title())); ?></div>
+								<div class="featured-image"><?php the_post_thumbnail('inner', array('class' => 'scale', 'alt' => get_the_title(), 'title' => get_the_title())); ?></div>
 							</a>
 						</div>
 					<?php endif; ?>
