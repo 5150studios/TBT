@@ -117,10 +117,10 @@
 	//Register the sidebar...
 	function md_register_sidebars() {
 		register_sidebar(array('id' => 'md-sidebar', 'name' => 'Left Sidebar'));
-		register_sidebar(array('id' => 'md-footer', 'name' => 'Footer 1'));
-		register_sidebar(array('id' => 'md-footer2', 'name' => 'Footer 2'));
-		register_sidebar(array('id' => 'md-footer3', 'name' => 'Footer 3'));
-		register_sidebar(array('id' => 'md-footer4', 'name' => 'Footer 4'));
+		register_sidebar(array('id' => 'md-footer', 'name' => 'Footer 1', 'class' => 'first'));
+		register_sidebar(array('id' => 'md-footer2', 'name' => 'Footer 2', 'class' => 'second'));
+		register_sidebar(array('id' => 'md-footer3', 'name' => 'Footer 3', 'class' => 'third'));
+		register_sidebar(array('id' => 'md-footer4', 'name' => 'Footer 4', 'class' => 'fourth'));
 	}
 	add_action('widgets_init', 'md_register_sidebars');
 	
