@@ -1823,6 +1823,14 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 961px) and (max-width: 1160px){
 
+.featureboxes h2 {
+  font-size: 18px;
+}
+
+.featureboxes .box {
+  width: 30%;
+}
+
   ul.products > .product:nth-child(4n+4) {
     margin-right: 30px;
   }
