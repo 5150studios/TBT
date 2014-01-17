@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
 
     
-    $('#instagram').bxSlider({
+    $('.instagramslider').bxSlider({
         slideWidth: 150,
         minSlides: 5,
         maxSlides: 5,
