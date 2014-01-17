@@ -32,9 +32,9 @@
 			<a href="<?php echo get_term_link( 15, 'workouts' );?>" class="button">View Workouts</a>
 		</div>
 		<div class="box">
-			<h2><span class="strong">TBT</span>Eseentials Workouts</h2>
-			<a href="<?php echo get_term_link( 16, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-essentials-workout.jpg" alt="TBT Essentials Workouts" /></a>
-			<a href="<?php echo get_term_link( 16, 'workouts' );?>" class="button">View Workouts</a>
+			<h2><span class="strong">TBT</span>Rehabilitation</h2>
+			<a href="<?php echo get_permalink(291);?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-rehabilitation.jpg" alt="TBT Rehabilitation" /></a>
+			<a href="<?php echo get_permalink(291);?>" class="button">Learn More</a>
 		</div>
 		<div class="box">
 			<h2><span class="strong">TBT</span>Elite Workouts</h2>
