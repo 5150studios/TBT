@@ -1908,13 +1908,13 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 961px) and (max-width: 1160px){
 
-.featureboxes h2 {
-  font-size: 18px;
-}
+  .featureboxes h2 {
+    font-size: 18px;
+  }
 
-.featureboxes .box {
-  width: 30%;
-}
+  .featureboxes .box {
+    width: 30%;
+  }
 
   ul.products > .product:nth-child(4n+4) {
     margin-right: 30px;
@@ -2090,6 +2090,10 @@ ul.thumbnails li {
   #wrap {
     background: none repeat scroll 0 0 #FFFFFF;
     width: 100%;
+  }
+
+  .featureboxes h2 {
+    font-size: 18px;
   }
 
   .featureboxes .box {
