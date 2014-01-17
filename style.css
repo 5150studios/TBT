@@ -1927,6 +1927,7 @@ ul.thumbnails li {
 
 .quotes .quoter {
   color: #31D31A;
+  float: right;
   font-size: 18px;
   line-height: 36px;
 }
