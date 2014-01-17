@@ -1909,6 +1909,15 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 961px) and (max-width: 1160px){
 
+  .js .selectnav {
+    display: none;
+    margin: 0;
+  }
+
+  select.selectnav :: -ms-expand {
+  display: none;
+  }
+
   .featureboxes h2 {
     font-size: 18px;
   }
