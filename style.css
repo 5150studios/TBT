@@ -2011,6 +2011,11 @@ ul.thumbnails li {
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 
+  .shailan-dropdown-menu ul.dropdown li.parent > a, .shailan-dropdown-menu ul.dropdown li > a {
+    font-size: 11px;
+    padding: 0 8px 45px;
+  }
+
   .js .selectnav {
     display: none;
     margin: 0;
@@ -2439,16 +2444,9 @@ ul.thumbnails li {
   .js #menu-main-menu { display: none; }
   .js .selectnav { display: block; }
 
-
-
 	select.selectnav :: -ms-expand {
 	display: none;
 	}
-
-
-
-
-
 	.half, .half-last {
 		width: 100%;
 		margin: 0;
