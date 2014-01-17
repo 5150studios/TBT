@@ -886,11 +886,7 @@ line-height: 1.4;
   float: left;
   font-size: 12px;
   list-style: none outside none;
-  margin: 0 10% 5% 0;
-}
-
-#footer .widget_mc4wp_widget {
-
+  margin: 0 10% 10% 0;
 }
 
 #footer .widgets .first {
@@ -900,7 +896,7 @@ line-height: 1.4;
 
 #footer .widgets .second {
   float: left;
-  width: 25%;
+  width: 22%;
 }
 
 #footer .widgets .third {
@@ -910,15 +906,23 @@ line-height: 1.4;
 
 #footer .widgets .fourth {
   float: left;
-  width: 20%;
+  width: 23%;
 }
 
 #footer #nav_menu-2 {
-
+  width: 40%;
 }
 
 #footer #recent-posts-2 {
+  width: 40%;
+}
 
+#footer .widget_mc4wp_widget {
+  width: 90%;
+}
+
+#footer p {
+  text-align: right;
 }
 
 #footer ul.menu {
@@ -943,14 +947,21 @@ line-height: 1.4;
 #footer a:hover,#footer a:active {
 	color: #FFFFFF;
 }
-#footer input[type="text"], #footer input[type="email"] {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-  border: 1px solid #F5F5F5;
+#footer .widget_mc4wp_widget input[type="text"], #footer .widget_mc4wp_widget input[type="email"] {
+  background: none repeat scroll 0 0 #D4D4D4;
+  float: left;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-right: 2%;
+  padding: 14px;
+  width: 68%;
 }
-#footer input[type="submit"] {
+
+#footer .widget_mc4wp_widget input[type="submit"] {
+  background: none repeat scroll 0 0 #31D31A;
+  float: left;
+  margin: 0;
   padding: 15px;
+  width: 30%;
 }
 
 /***** END Foooter *****/
