@@ -1893,7 +1893,7 @@ ul.thumbnails li {
   }
 
 .js .selectnav {
-  display: block;
+  display: none;
   float: left;
   margin: 20px 0;
   position: relative;
@@ -2001,10 +2001,6 @@ ul.thumbnails li {
 	  margin: 0;
 	  padding: 0;
 	  width: 100%;
-	}
-
-	#megaMenu #menu-item-83 {
-		display: none;
 	}
 
 	.productcategories ul li {
