@@ -1919,15 +1919,17 @@ ul.thumbnails li {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
   border-left: 14px solid #31D31A;
   float: right;
+  height: 130px;
   padding: 8px 20px;
   width: 50%;
 }
 
-  .quotes .quoter {
-    color: #31D31A;
-    float: right;
-    font-size: 18px;
-  }
+.quotes .quoter {
+  color: #31D31A;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: 10px;
+}
 
 .quotes .text {
   color: #FFFFFF;
