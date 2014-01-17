@@ -865,7 +865,7 @@ line-height: 1.4;
 }
 .innerfooter {
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 20px;
   position: relative;
   width: 1160px;
 }
@@ -981,10 +981,10 @@ line-height: 1.4;
 	text-decoration: none;
 }
 .copyright a:hover,.copyright a:active {
-	color: #4963a5;
+	color: #35d71c;
 }
 .copyright .copyrightnav li.current-menu-item a {
-	color: #4963a5;
+	color: #35d71c;
 }
 .copyrightnav ul {
   display: table;
