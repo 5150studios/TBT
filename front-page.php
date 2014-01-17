@@ -53,9 +53,9 @@
 			<a href="<?php echo get_permalink(291);?>" class="button">Learn More</a>
 		</div>
 		<div class="box">
-			<h2><span class="strong">TBT</span>Elite Workouts</h2>
-			<a href="<?php echo get_term_link( 17, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite-workout.jpg" alt="STBT Elite Workouts" /></a>
-			<a href="<?php echo get_term_link( 17, 'workouts' );?>" class="button">View Workouts</a>
+			<h2><span class="strong">TBT</span>In Action</h2>
+			<a href="<?php echo get_term_link( 319, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite-workout.jpg" alt="TBT In Action Gallery" /></a>
+			<a href="<?php echo get_term_link( 319, 'workouts' );?>" class="button">View Gallery</a>
 		</div>
 	</div>
 </div><!-- /content -->	
