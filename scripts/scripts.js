@@ -2,18 +2,18 @@ jQuery(document).ready(function($) {
 
     selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
 
-    /*
-    $('.brands').bxSlider({
-        slideWidth: 250,
-        minSlides: 2,
+    
+    $('#instagram').bxSlider({
+        slideWidth: 150,
+        minSlides: 5,
         maxSlides: 5,
         moveSlides: 1,
-        slideMargin: 60,
+        slideMargin: 20,
         pager: false,
         auto: true,
         controls: false,
     });
-    */
+    
 
     $('.headerslider').bxSlider({
         auto: true,

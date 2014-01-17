@@ -36,7 +36,7 @@
 				url: "https://api.instagram.com/v1/tags/tbtrevolution/media/recent?client_id=adc31ddd1d1b4c63b4c4b0dd1d2df901",
 				dataType: "jsonp",
 				success: function(response) {
-					var limit = 4;
+					var limit = 14;
 					var div = $('#instagram');
 					var caption = '';
 					var url = '';
