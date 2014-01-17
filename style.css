@@ -1877,7 +1877,28 @@ ul.thumbnails li {
 /* default style */
 .selectnav { display: none; }
 
+  select.selectnav {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: none repeat scroll 0 0 #ffffff;
+    color: #222222;
+    outline: medium none;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 0.01px;
+    text-overflow: "";
+  }
 
+.js .selectnav {
+  display: block;
+  float: left;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}  
 
 @ms-viewport {
 	width: device-width;
@@ -1984,6 +2005,15 @@ ul.thumbnails li {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
+
+  .js .selectnav {
+    display: none;
+    margin: 0;
+  }
+
+  select.selectnav :: -ms-expand {
+  display: none;
+  }
 
   #instagram {
     height: auto;
@@ -2171,6 +2201,24 @@ ul.thumbnails li {
 	  max-width: 30%;
 	}
 
+  .shailan-dropdown-menu-widget {
+    float: right;
+    height: auto;
+    margin: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+  }
+
+  .js .selectnav {
+    display: block;
+    margin: 0;
+  }
+
+  select.selectnav :: -ms-expand {
+  display: none;
+  }
+
 	.shailan-dropdown-menu-widget .shailan-dropdown-menu {
 	  float: right;
 	  margin: 10px 0;
@@ -2178,30 +2226,9 @@ ul.thumbnails li {
 	  width: auto;
 	}
 
-	select.selectnav {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-	  background: none repeat scroll 0 0 #555555;
-	  border-radius: 6px;
-	  color: #FFFFFF;
-	  outline: medium none;
-	  overflow: hidden;
-	  text-align: center;
-	  text-indent: 0.01px;
-	  text-overflow: "";
-	  width: 100px;
-	}
-
-	select.selectnav :: -ms-expand {
-	display: none;
-	}
 
 
 	.js #menu-main-menu { display: none; }
-	.js .selectnav { display: block; }
 
 	.shailan-dropdown-menu ul.dropdown li.parent > a, .shailan-dropdown-menu ul.dropdown li > a {
 	  padding: 10px;
@@ -2287,25 +2314,25 @@ ul.thumbnails li {
   	top: 0;
   }
 
-.headerslider .slide .slant.pink, .headerslider .slide .slant.military {
-  left: -47%;
-  right: -47%;
-}
+  .headerslider .slide .slant.pink, .headerslider .slide .slant.military {
+    left: -47%;
+    right: -47%;
+  }
 
-.headerslider .slanttext {
-  left: 45%;
-  top: 30%;
-}
+  .headerslider .slanttext {
+    left: 45%;
+    top: 30%;
+  }
 
-.slantheading {
-  font-size: 22px;
-  line-height: 1;
-}
+  .slantheading {
+    font-size: 22px;
+    line-height: 1;
+  }
 
-.headerslider .slantfeature {
-  left: 36%;
-  top: 68%;
-}
+  .headerslider .slantfeature {
+    left: 36%;
+    top: 68%;
+  }
 
 	.slantmodel {
 	  font-size: 18px;
@@ -2356,46 +2383,47 @@ ul.thumbnails li {
 		margin-bottom: 20px;
 	}
 
-	.shailan-dropdown-menu-widget {
-		height: 50px;
-		position: relative;
-	}
+  .shailan-dropdown-menu-widget {
+    float: left;
+    height: auto;
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .js .selectnav {
+    width: 380px;
+    z-index: 9999;
+  }
+
+  .js .selectnav:hover {
+    cursor: pointer;
+  }
+
 	#headerinner {
 	  margin: 0;
 	  width: 100%;
 	}
 
-	.shailan-dropdown-menu-widget .shailan-dropdown-menu {
-	  float: right;
-	  margin: 10px 0;
-	  position: relative;
-	  width: auto;
-	}
+  .shailan-dropdown-menu-widget .shailan-dropdown-menu {
+    float: none;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
 
-	select.selectnav {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-	  background: none repeat scroll 0 0 #555555;
-	  border-radius: 6px;
-	  color: #FFFFFF;
-	  outline: medium none;
-	  overflow: hidden;
-	  text-align: center;
-	  text-indent: 0.01px;
-	  text-overflow: "";
-	  width: 100px;
-	}
+  .js #menu-main-menu { display: none; }
+  .js .selectnav { display: block; }
+
+
 
 	select.selectnav :: -ms-expand {
 	display: none;
 	}
 
 
-	.js #menu-main-menu { display: none; }
-	.js .selectnav { display: block; }
+
 
 
 	.half, .half-last {
@@ -2491,6 +2519,7 @@ ul.thumbnails li {
 #header a.logo {
   margin: 0 auto;
   position: relative;
+  width: 100%;
 }
 
 #sidebar {
