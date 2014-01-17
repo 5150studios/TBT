@@ -21,7 +21,7 @@
 </div><!-- /content -->
 
 <div id="instagram-wrap">
-	<div id="instagram"><h3>#TBTRevolution</h3></div>
+	<div id="instagram"><h3>#TBTRevolution</h3><ul class="instagramslider"></ul></div>
 </div>
 
 
@@ -37,7 +37,7 @@
 				dataType: "jsonp",
 				success: function(response) {
 					var limit = 14;
-					var div = $('#instagram');
+					var ul = $('#instagramslider');
 					var caption = '';
 					var url = '';
 					$.each(response.data, function(i, item) {
@@ -48,7 +48,7 @@
 						} else {
 							caption = item.caption.text;
 						}
-						div.append('<img src="' + url + '" alt="' + caption + '" title="' + caption + '" />');
+						ul.append('<li><img src="' + url + '" alt="' + caption + '" title="' + caption + '" /></li>');
 					});
 				}
 			});
