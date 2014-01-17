@@ -886,27 +886,35 @@ line-height: 1.4;
   float: left;
   font-size: 12px;
   list-style: none outside none;
-  margin: 0 0 0 6%;
-  width: 20%;
-}
-#footer .widget:first-child {
-	margin-left: 0;
+  margin: 0 10% 5% 0;
 }
 
 #footer .widgets .first {
-
+  float: left;
+  width: 40%;
 }
 
 #footer .widgets .second {
-  
+  float: left;
+  width: 25%;
 }
 
 #footer .widgets .third {
-  
+  float: left;
+  width: 15%;
 }
 
 #footer .widgets .fourth {
-  
+  float: left;
+  width: 20%;
+}
+
+#footer #nav_menu-2 {
+
+}
+
+#footer #recent-posts-2 {
+
 }
 
 #footer ul.menu {
@@ -914,16 +922,14 @@ line-height: 1.4;
 }
 
 #footer ul.menu li {
-  
+  margin: 8px 0;
 }
 
 #footer .widget ul {
-	margin: 20px 0 10px;
+  margin: 10px 0;
 }
 #footer ul li ul > li a:before {
-	content: "»";
-	margin-right: 5px;
-}
+
 #footer ul li {
 	list-style-type: none;
 }
