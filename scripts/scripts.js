@@ -38,7 +38,8 @@ jQuery(document).ready(function($) {
                 }
             });
         }
-    selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
+    
+    //selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
 
     $('.headerslider').show().bxSlider({
         auto: true,

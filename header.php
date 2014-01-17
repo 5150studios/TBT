@@ -41,11 +41,11 @@
 			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/military.jpg">
 			  	<div class="slant military">
 			  		<div class="slanttext">
-				  		<div class="slantheading">Military Spec</div>
+				  		<div class="slantheading">Perform At Your Peak</div>
 				  	</div>
 				  	<div class="slantfeature">	
-				  		<div class="slantsubheading military">Military Spec</div>
-				  		<div class="slantmodel">Military Spec</div>
+				  		<div class="slantsubheading military">Tacticle + Power</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Military</div>
 				  	</div>
 			  	</div>
 			  </div>
