@@ -56,7 +56,11 @@ jQuery(document).ready(function($) {
         pagerCustom: '#exercise-steps-pager'
     });
 
+    $(".gallery a").addClass('fancybox').attr("rel","group");
+
     $('.fancybox').fancybox();
+
+
 
     $("iframe").each(function(){
         var ifr_source = $(this).attr('src');
