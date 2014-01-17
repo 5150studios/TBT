@@ -2392,6 +2392,16 @@ ul.thumbnails li {
 		width: 100%;
 	}
 
+#instagram h3 {
+  clear: both;
+  float: none;
+  height: auto;
+  line-height: 100%;
+  margin: 0 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
 	#instagram img {
 		margin-bottom: 20px;
 	}
