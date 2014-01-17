@@ -1907,7 +1907,8 @@ ul.thumbnails li {
 .quotes {
   clear: both;
   display: inline-block;
-  margin: 10px 0 60px;
+  height: 125px;
+  margin: 0 0 50px;
   width: 100%;
 }
 
@@ -1919,7 +1920,7 @@ ul.thumbnails li {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
   border-left: 14px solid #31D31A;
   float: right;
-  height: 130px;
+  height: 127px;
   padding: 8px 20px;
   width: 50%;
 }
