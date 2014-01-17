@@ -57,10 +57,7 @@ jQuery(document).ready(function($) {
     });
 
     $(".gallery a").addClass('fancybox').attr("rel","group");
-
     $('.fancybox').fancybox();
-
-
 
     $("iframe").each(function(){
         var ifr_source = $(this).attr('src');
