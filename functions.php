@@ -163,8 +163,8 @@
 		wp_enqueue_script( 'quicksand' );
 
 		//Select Nav
-		//wp_register_script( 'selectnav', get_template_directory_uri() . '/scripts/selectnav.min.js', '', null, true);
-		//wp_enqueue_script( 'selectnav' );
+		wp_register_script( 'selectnav', get_template_directory_uri() . '/scripts/selectnav.min.js', '', null, true);
+		wp_enqueue_script( 'selectnav' );
 
 		//bxslider CSS
 		wp_register_style( 'bxslider', get_template_directory_uri() . '/scripts/jquery.bxslider.css', '', null, 'screen' );
