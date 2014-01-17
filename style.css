@@ -442,12 +442,13 @@ label {
   width: 1160px;
 }
 #header a.logo {
-  background: url("images/logo.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+  background: url("images/logo.png") no-repeat scroll center 0 transparent;
   color: rgba(0, 0, 0, 0);
   display: block;
+  float: left;
   font: 0px/0 a;
   height: 67px;
-  position: absolute;
+  position: relative;
   text-shadow: none;
   width: 120px;
   z-index: 999;
@@ -455,9 +456,12 @@ label {
 /* MY-DROPDOWN-STYLES */
 
 .shailan-dropdown-menu-widget {
-  height: 90px;
+  float: left;
+  height: 61px;
+  margin-left: 40px;
   position: relative;
-  width: 100%;
+  top: 23px;
+  width: 1000px;
 }
 .shailan-dropdown-menu-widget .shailan-dropdown-menu {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
