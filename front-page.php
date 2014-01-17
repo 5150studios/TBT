@@ -37,7 +37,7 @@
 				dataType: "jsonp",
 				success: function(response) {
 					var limit = 14;
-					var ul = $('#instagramslider');
+					var ul = $('.instagramslider');
 					var caption = '';
 					var url = '';
 					$.each(response.data, function(i, item) {
