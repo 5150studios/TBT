@@ -46,6 +46,7 @@ jQuery(document).ready(function($) {
         pager: false,
         auto: true,
         controls: false,
+        preloadImages: 'all'
     });
 
     $('.exercise-steps').bxSlider({
