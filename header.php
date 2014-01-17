@@ -36,7 +36,7 @@
 			</div><!-- /headerinner -->
 		</div><!-- /header -->	
 
-		<div class="headerslider">		
+		<div class="headerslider" style="display:none">		
 			  <div class="slide">
 			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/military.jpg">
 			  	<div class="slant military">
