@@ -1904,6 +1904,18 @@ ul.thumbnails li {
     cursor: pointer;
   } 
 
+  .quotes {
+
+  }
+
+  .quotes .quote {
+
+  }
+
+  .quotes .quoter {
+
+  }
+
 @ms-viewport {
 	width: device-width;
 }
