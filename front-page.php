@@ -8,7 +8,7 @@
 			<?php while (have_posts()) : ?>
 				<?php the_post(); ?>
 				<span class="quote"><?php the_content(); ?></span>
-				<span class="quoter"<?php the_title(); ?></span>
+				<span class="quoter"><?php the_title(); ?></span>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
