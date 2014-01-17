@@ -27,7 +27,7 @@
 <div class="content">
 	<div class="featureboxes">
 		<div class="box">
-			<h2><span class="strong">TBT</span>Travel Workouts</h2>
+			<h2><span class="strong">TBT</span>Equipment</h2>
 			<a href="<?php echo get_term_link( 15, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-travel-workout.jpg" alt="TBT Travel Workouts" /></a>
 			<a href="<?php echo get_term_link( 15, 'workouts' );?>" class="button">View Workouts</a>
 		</div>
