@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
         }
     selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
 
-    $('.headerslider').bxSlider({
+    $('.headerslider').show().bxSlider({
         auto: true,
         autoHover: true,
         pager: false,
