@@ -54,7 +54,7 @@
 		</div>
 		<div class="box">
 			<h2><span class="strong">TBT</span>In Action</h2>
-			<a href="<?php echo get_term_link( 319, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite-workout.jpg" alt="TBT In Action Gallery" /></a>
+			<a href="<?php echo get_term_link( 319, 'workouts' );?>"><img class="boximg" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-in-action.jpg" alt="TBT In Action Gallery" /></a>
 			<a href="<?php echo get_term_link( 319, 'workouts' );?>" class="button">View Gallery</a>
 		</div>
 	</div>
