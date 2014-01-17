@@ -1,6 +1,19 @@
 <?php get_header(); the_post(); ?>
 
 <div class="content">
+
+	<div class="quotes">
+		<?php query_posts( 'post_type=exercise&posts_per_page=5'); ?>
+		<?php if (have_posts()) : ?>
+			<?php while (have_posts()) : ?>
+				<?php the_post(); ?>
+				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+				<?php the_content(); ?>
+			<?php endwhile; ?>
+		<?php endif; ?>
+	</div>
+
+
 	<div class="featureboxes">
 		<div class="box">
 			<h2><span class="strong">TBT</span>Shop</h2>
