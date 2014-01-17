@@ -464,15 +464,7 @@ label {
   width: 1000px;
 }
 .shailan-dropdown-menu-widget .shailan-dropdown-menu {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-  bottom: 0;
-  height: 50%;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 60%;
+
 }
 .shailan-dropdown-menu ul.dropdown > li.bold a {
   font-weight: 700;
