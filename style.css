@@ -2566,6 +2566,15 @@ ul.thumbnails li {
 	  width: 100%;
 	}
 
+  #footer img {
+    max-width: 100%;
+    width: auto;
+  }
+
+  #footer p {
+    text-align: center;
+  }
+
   #footer .innerfooter {
     width: 100%;
   }
@@ -2587,6 +2596,12 @@ ul.thumbnails li {
 	  right: -12px;
 	  top: 155px;
 	}
+
+  .copyrightnav li {
+    float: left;
+    list-style-type: none;
+    margin: 0 20px 20px 0;
+  }
 
 	.copyright .payments {
 	  float: left;
