@@ -2,38 +2,8 @@
 
 <?php if(!is_front_page() && !is_home()) : ?>
 <div id="instagram-wrap">
-	<div id="instagram"><h3>#TBTRevolution</h3></div>
+	<div id="instagram"><h3>#TBTRevolution</h3><ul class="instagramslider"></ul></div>
 </div>
-
-	<script type="text/javascript">
-	jQuery('document').ready(function($) {
-		getInstagram();
-
-		function getInstagram() {
-			return $.ajax({
-				type: "GET",
-				url: "https://api.instagram.com/v1/tags/tbtrevolution/media/recent?client_id=adc31ddd1d1b4c63b4c4b0dd1d2df901",
-				dataType: "jsonp",
-				success: function(response) {
-					var limit = 4;
-					var div = $('#instagram');
-					var caption = '';
-					var url = '';
-					$.each(response.data, function(i, item) {
-						if(i > limit) return false;
-						url = item.images.thumbnail.url;
-						if(caption === null){
-							caption = '';
-						} else {
-							caption = item.caption.text;
-						}
-						div.append('<img src="' + url + '" alt="' + caption + '" title="' + caption + '" />');
-					});
-				}
-			});
-		}
-	});
-	</script>
 <?php endif; ?>	
 
 

@@ -270,6 +270,22 @@ img.aligncenter {
   margin-right: 0;
 }
 
+#instagram ul {
+  margin: 0;
+}
+
+#instagram ul li {
+  margin: 0;
+}
+
+#instagram .bx-wrapper .bx-viewport {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  box-shadow: none;
+  left: 0;
+  margin: 0 !important;
+}
+
 /**** END MAIN ****/
 /**** FANCYBOX ****/
 .fancybox {

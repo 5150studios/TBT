@@ -162,7 +162,7 @@
 		wp_register_script( 'quicksand', get_template_directory_uri() . '/scripts/jquery.quicksand.js', '', null, true);
 		wp_enqueue_script( 'quicksand' );
 
-		//Quicksand Script
+		//Select Nav
 		wp_register_script( 'selectnav', get_template_directory_uri() . '/scripts/selectnav.min.js', '', null, true);
 		wp_enqueue_script( 'selectnav' );
 
