@@ -3,12 +3,12 @@
 <div class="content">
 
 	<div class="quotes">
-		<?php query_posts( 'post_type=quotes&posts_per_page=5'); ?>
+		<?php query_posts( 'post_type=quotes&posts_per_page=1&orderby=rand'); ?>
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : ?>
 				<?php the_post(); ?>
-				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-				<?php the_content(); ?>
+				<span class="quote"><?php the_content(); ?></span>
+				<span class="quoter"<?php the_title(); ?></span>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
