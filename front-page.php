@@ -7,8 +7,10 @@
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : ?>
 				<?php the_post(); ?>
-				<span class="quote"><?php the_content(); ?></span>
-				<span class="quoter"><?php the_title(); ?></span>
+				<div class="quote">
+					<span class="text"><?php the_content(); ?></span>
+					<span class="quoter"><?php the_title(); ?></span>
+				</div>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
