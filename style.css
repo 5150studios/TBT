@@ -981,10 +981,10 @@ line-height: 1.4;
 	text-decoration: none;
 }
 .copyright a:hover,.copyright a:active {
-	color: #35d71c;
+	color: #2d2e2d;
 }
 .copyright .copyrightnav li.current-menu-item a {
-	color: #35d71c;
+	color: #2d2e2d;
 }
 .copyrightnav ul {
   display: table;
