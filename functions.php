@@ -147,7 +147,7 @@
 		}
 
 		//GoogleFont
-		wp_register_style( 'googlefont', '//fonts.googleapis.com/css?family=Raleway:400,700', '', null, 'screen' );
+		wp_register_style( 'googlefont', '//fonts.googleapis.com/css?family=Raleway:300,400,700', '', null, 'screen' );
   		wp_enqueue_style( 'googlefont' );
 
 		//Font Awesome CSS
