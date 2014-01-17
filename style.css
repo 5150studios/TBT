@@ -2567,10 +2567,10 @@ ul.thumbnails li {
 	}
 
   #footer .innerfooter {
-
+    width: 100%;
   }
 
-  #footer .widgets .first, #footer .widgets .second, #footer .widgets .third, #footer .widgets .fourth {
+  #footer .widgets .first, #footer .widgets .second, #footer .widgets .third, #footer .widgets .fourth, #footer #recent-posts-2, #footer #nav_menu-2 {
     width: 100%;
   }
 
