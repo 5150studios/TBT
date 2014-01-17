@@ -297,8 +297,8 @@ img.aligncenter {
 }
 .fancybox img {
 	border: 5px solid #FFFFFF;
-	-webkit-box-shadow: 0 0 2px #CCCCCC;
-	box-shadow: 0 0 2px #CCCCCC;
+	-webkit-box-shadow: 1px 1px 0px #CCCCCC;
+	box-shadow: 1px 1px 0px #CCCCCC;
 }
 .fancybox img.alignleft {
 	margin-left: 0;
