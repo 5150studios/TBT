@@ -3,7 +3,7 @@
 <div class="content">
 
 	<div class="quotes">
-		<?php query_posts( 'post_type=exercise&posts_per_page=5'); ?>
+		<?php query_posts( 'post_type=quotes&posts_per_page=5'); ?>
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : ?>
 				<?php the_post(); ?>
