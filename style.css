@@ -1911,13 +1911,17 @@ ul.thumbnails li {
   width: 100%;
 }
 
-  .quotes .quote {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
-    border-left: 14px solid #31D31A;
-    float: right;
-    padding: 8px 20px;
-    width: 50%;
+  .quotes p {
+    margin: 0;
   }
+
+.quotes .quote {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+  border-left: 14px solid #31D31A;
+  float: right;
+  padding: 8px 20px;
+  width: 50%;
+}
 
   .quotes .quoter {
     color: #31D31A;
@@ -1925,12 +1929,13 @@ ul.thumbnails li {
     font-size: 18px;
   }
 
-  .quotes .text {
-    color: #FFFFFF;
-    font-size: 22px;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
+.quotes .text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2.5px;
+  text-transform: uppercase;
+}
 
 @ms-viewport {
 	width: device-width;
