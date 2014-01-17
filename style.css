@@ -1898,7 +1898,11 @@ ul.thumbnails li {
   margin: 20px 0;
   position: relative;
   text-align: center;
-}  
+} 
+
+  .js .selectnav:hover {
+    cursor: pointer;
+  } 
 
 @ms-viewport {
 	width: device-width;
@@ -2423,10 +2427,6 @@ ul.thumbnails li {
   .js .selectnav {
     width: 380px;
     z-index: 9999;
-  }
-
-  .js .selectnav:hover {
-    cursor: pointer;
   }
 
 	#headerinner {
