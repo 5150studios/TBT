@@ -355,6 +355,7 @@ a.button {
   display: inline-block;
   float: none;
   width: auto;
+  text-decoration: none;
 }
 
 .button.small {
@@ -1583,6 +1584,10 @@ ul.design-gallery a:hover, ul.design-gallery a:active {
 
 
 /**** WooCommerce ****/
+.container .product h2 {
+  color: #2D2E2D;
+}
+
 .container .woocommerce-ordering {
   margin: 0 0 25px;
   width: 25%;
@@ -1746,6 +1751,7 @@ ul.products > .product a.button {
   margin: 0;
   position: absolute;
   width: 100%;
+  text-decoration: none;
 }
 
 ul.products > .product h3 {
