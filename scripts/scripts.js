@@ -33,20 +33,12 @@ jQuery(document).ready(function($) {
                         pager: false,
                         auto: true,
                         controls: false,
+                        pause: 2500
                     });
                 }
             });
         }
-
-
-
     selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
-
-    
-    
-
-
-    
 
     $('.headerslider').bxSlider({
         auto: true,
@@ -55,7 +47,6 @@ jQuery(document).ready(function($) {
         auto: true,
         controls: false,
     });
-
 
     $('.exercise-steps').bxSlider({
         auto: true,
