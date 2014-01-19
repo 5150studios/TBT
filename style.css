@@ -483,6 +483,7 @@ label {
 .shailan-dropdown-menu ul.dropdown li.parent > a, .shailan-dropdown-menu ul.dropdown li > a {
   padding: 0 14px 45px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .shailan-dropdown-menu ul.dropdown li.parent > a:after, .shailan-dropdown-menu ul.dropdown li.parent:hover > a:after {
 	border: none;
