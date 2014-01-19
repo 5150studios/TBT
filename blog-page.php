@@ -41,7 +41,7 @@ Template Name: Blog Page
 										</a>
 									</div>
 								<?php endif; ?>
-			<div class="clear"></div>
+								<div class="clear"></div>
 								<div class="post-snippet">
 									<?php the_excerpt(); ?>
 								</div>
@@ -57,7 +57,6 @@ Template Name: Blog Page
 				<?php } ?>
 			<?php } ?>
 						<?php pagination(); ?>
-					?>			
 			</section><!-- /inner -->
 		</div><!-- /container -->
 	</div><!-- /content -->	
