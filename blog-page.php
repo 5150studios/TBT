@@ -5,8 +5,15 @@ Template Name: Blog Page
 ?>
 
 <?php get_header(); ?>
-	<div id="main">
 		<div class="content">
+				<?php get_sidebar(); ?>
+		<div class="container">
+
+			<section class="title">
+				<h1>Latest News</h1>
+			</section><!-- /title -->
+
+			<section class="inner">
 		<?php
 			$temp = $wp_query;
 			$wp_query= null;
@@ -49,10 +56,10 @@ Template Name: Blog Page
 					</div>
 				<?php } ?>
 			<?php } ?>
-						pagination();
+						<?php pagination(); ?>
 					?>			
-			</div><!-- /content -->
-		</div><!-- /#main -->
-	<?php get_sidebar(); ?>
-	<div class="clear"></div>
+			</section><!-- /inner -->
+		</div><!-- /container -->
+	</div><!-- /content -->	
+<div class="clear"></div>
 <?php get_footer(); ?>
