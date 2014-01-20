@@ -34,16 +34,15 @@ get_header('shop'); ?>
 			do_action('woocommerce_sidebar');
 		?>
 
-		<div class="container">
+	<div class="container">
+		<section class="title">	
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<section class="title">
 			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 			<?php woocommerce_result_count(); ?>
-		</section><!-- /title -->
 		<?php endif; ?>
+		</section><!-- /title -->
 
 		<section class="inner">
-
 			<?php do_action( 'woocommerce_archive_description' ); ?>
 
 			<?php if ( have_posts() ) : ?>
@@ -95,7 +94,5 @@ get_header('shop'); ?>
 		?>
 	</section><!-- /inner -->
 </div><!-- /container -->
-
-
 
 <?php get_footer('shop'); ?>
