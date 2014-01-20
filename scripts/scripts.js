@@ -1,45 +1,11 @@
 jQuery(document).ready(function($) {
 
-        getInstagram();
-  
-        function getInstagram() {
-            return $.ajax({
-                type: "GET",
-                url: "https://api.instagram.com/v1/tags/tbtrevolution/media/recent?client_id=adc31ddd1d1b4c63b4c4b0dd1d2df901",
-                dataType: "jsonp",
-                success: function(response) {
-                    var limit = 14;
-                    var ul = $('.instagramslider');
-                    var caption = '';
-                    var url = '';
-                    $.each(response.data, function(i, item) {
-                        if(i > limit) return false;
-                        url = item.images.thumbnail.url;
-                        if(caption === null){
-                            caption = '';
-                        } else {
-                            caption = item.caption.text;
-                        }
-                        ul.append('<li><img src="' + url + '" alt="' + caption + '" title="' + caption + '" /></li>');
-                    });
-                },
-                complete: function(com) {
-                    $('.instagramslider').bxSlider({
-                        slideWidth: 150,
-                        minSlides: 2,
-                        maxSlides: 5,
-                        moveSlides: 1,
-                        slideMargin: 20,
-                        pager: false,
-                        auto: true,
-                        controls: false,
-                        pause: 2500
-                    });
-                }
-            });
-        }
-    
     selectnav('menu-main-menu', {label: 'Menu', indent: '-'});
+
+    swapper();
+    $(window).on('resize', swapper);
+
+    getInstagram();
 
     $('.headerslider').show().bxSlider({
         auto: true,
@@ -96,3 +62,49 @@ jQuery(document).ready(function($) {
     });
 
 });
+
+function swapper() {
+    var windowsize =  jQuery(window).width();
+    if(windowsize < 767) {
+        jQuery('.container').insertBefore(jQuery('#sidebar'));
+    } else {
+        jQuery('#sidebar').insertBefore(jQuery('.container'));
+    }
+}
+
+function getInstagram() {
+        return jQuery.ajax({
+            type: "GET",
+            url: "https://api.instagram.com/v1/tags/tbtrevolution/media/recent?client_id=adc31ddd1d1b4c63b4c4b0dd1d2df901",
+            dataType: "jsonp",
+            success: function(response) {
+                var limit = 14;
+                var ul = jQuery('.instagramslider');
+                var caption = '';
+                var url = '';
+                jQuery.each(response.data, function(i, item) {
+                    if(i > limit) return false;
+                    url = item.images.thumbnail.url;
+                    if(caption === null){
+                        caption = '';
+                    } else {
+                        caption = item.caption.text;
+                    }
+                    ul.append('<li><img src="' + url + '" alt="' + caption + '" title="' + caption + '" /></li>');
+                });
+            },
+            complete: function(com) {
+                jQuery('.instagramslider').bxSlider({
+                    slideWidth: 150,
+                    minSlides: 2,
+                    maxSlides: 5,
+                    moveSlides: 1,
+                    slideMargin: 20,
+                    pager: false,
+                    auto: true,
+                    controls: false,
+                    pause: 2500
+                });
+            }
+        });
+    }

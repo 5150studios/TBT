@@ -154,14 +154,6 @@
 		wp_register_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', '', null, 'screen' );
   		wp_enqueue_style( 'font-awesome' );
 
-  		//Easing jQuery Plugin for Quicksand
-		wp_register_script( 'easing', get_template_directory_uri() . '/scripts/jquery.easing.js', '', null, true);
-		wp_enqueue_script( 'easing' );
-
-		//Quicksand Script
-		wp_register_script( 'quicksand', get_template_directory_uri() . '/scripts/jquery.quicksand.js', '', null, true);
-		wp_enqueue_script( 'quicksand' );
-
 		//Select Nav
 		wp_register_script( 'selectnav', get_template_directory_uri() . '/scripts/selectnav.min.js', '', null, true);
 		wp_enqueue_script( 'selectnav' );
@@ -363,17 +355,17 @@
 	function md_faq($atts, $content = null) {
 		return '<dl class="faqs">'.do_shortcode($content).'</dl>';
 	}
-	add_shortcode("faqs", "md_faq");
+	add_shortcode("faq", "md_faq");
 
 	//[question] Shortcode...
 	function md_question($atts, $content = null) {
-		return '<dt><i class="icon-question-sign"></i> '.do_shortcode($content).'</dt>';
+		return '<dt><i class="fa fa-question-circle"></i> '.do_shortcode($content).'</dt>';
 	}
 	add_shortcode("question", "md_question");
 
 	//[answer] Shortcode...
 	function md_answer($atts, $content = null) {
-		return '<dd><i class="icon-quote-right"></i> '.do_shortcode($content).'</dd>';
+		return '<dd><i class="fa fa-quote-left"></i> '.do_shortcode($content).'</dd>';
 	}
 	add_shortcode("answer", "md_answer");	
 
