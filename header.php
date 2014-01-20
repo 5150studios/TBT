@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 	<head>
-		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+		<meta charset="utf-8">
 		<title><?php wp_title('-', true, 'right'); ?><?php bloginfo('name'); ?></title>
 		<meta name="viewport" content="width=device-width, maximum-scale=2.0">
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
