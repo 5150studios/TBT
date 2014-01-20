@@ -2,20 +2,7 @@
 
 <div class="content">
 
-	<div class="quotes">
-		<?php query_posts( 'post_type=quotes&posts_per_page=1&orderby=rand'); ?>
-		<?php if (have_posts()) : ?>
-			<?php while (have_posts()) : ?>
-				<?php the_post(); ?>
-				<div class="quote">
-					<span class="text"><?php the_content(); ?></span>
-					<span class="quoter"><?php the_title(); ?></span>
-				</div>
-			<?php endwhile; ?>
-		<?php endif; ?>
-		<?php wp_reset_query(); ?>
-	</div>
-
+	<?php echo get_quotes(); ?>
 
 	<div class="featureboxes">
 		<div class="box">

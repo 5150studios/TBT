@@ -6,8 +6,9 @@ Template Name: Blog Page
 
 <?php get_header(); ?>
 		<div class="content">
-				<?php get_sidebar(); ?>
-		<div class="container">
+			<?php echo get_quotes(); ?>
+			<?php get_sidebar(); ?>
+			<div class="container">
 
 			<section class="title">
 				<h1>Latest News</h1>

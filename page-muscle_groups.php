@@ -7,7 +7,8 @@
 
 <?php get_header(); ?>
 		<div class="content">
-				<?php get_sidebar(); ?>
+			<?php echo get_quotes(); ?>		
+			<?php get_sidebar(); ?>
 		<div class="container">
 
 			<section class="title">

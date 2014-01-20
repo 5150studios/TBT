@@ -42,7 +42,6 @@
 	return $cat_args;
 	}
 
-
 	function md_theme_wrapper_start() {
 	  echo '<div class="content">';
 	}
@@ -52,6 +51,25 @@
 	  echo '</div>';
 	}
 	add_action('woocommerce_after_main_content', 'md_theme_wrapper_end', 10);
+
+
+	function get_quotes() {
+		$quotes = '<div class="quotes">';
+		query_posts( 'post_type=quotes&posts_per_page=1&orderby=rand');
+		if (have_posts()) :
+			while (have_posts()) :
+				the_post();
+				$quotes .= '<div class="quote">
+					<span class="text">'.get_the_content().'</span>
+					<span class="quoter">'.get_the_title().'</span>
+				</div>';
+			endwhile;
+		endif;
+		wp_reset_query();
+		$quotes .= '</div>';
+		return $quotes;
+	}
+
 
 	function get_disqus() {
 		echo "<div id=\"disqus_thread\"></div>
@@ -92,13 +110,13 @@
 	}
 
 	function isacustom_excerpt_length($length) {
-	global $post;
-	if ($post->post_type == 'post')
-	return 25;
-	else if ($post->post_type == 'design')
-	return 15;
-	else
-	return 35;
+		global $post;
+		if ($post->post_type == 'post')
+			return 25;
+		else if ($post->post_type == 'design')
+			return 15;
+		else
+			return 35;
 	}
 	add_filter('excerpt_length', 'isacustom_excerpt_length');
 	
@@ -137,8 +155,8 @@
 			wp_enqueue_script('jquery');
 
 			//CSS
-			wp_register_style( 'styles', get_template_directory_uri() . '/style.css', '', null, 'screen' );
-			//wp_register_style( 'styles', get_template_directory_uri() . '/style.min.css', '', null, 'screen' );
+			//wp_register_style( 'styles', get_template_directory_uri() . '/style.css', '', null, 'screen' );
+			wp_register_style( 'styles', get_template_directory_uri() . '/style.min.css', '', null, 'screen' );
 	  		wp_enqueue_style( 'styles' );
 		}
 

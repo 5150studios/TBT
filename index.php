@@ -1,10 +1,18 @@
 <?php get_header(); the_post(); ?>
-	<div id="main">
-		<div class="content">
-			<?php require('loop.php'); ?>
-			<?php the_content(); ?>
-		</div><!-- /content -->
-	</div><!-- /#main -->
+	<div class="content">
+		<?php echo get_quotes(); ?>
+		<?php get_sidebar(); ?>
+		<div class="container">
+			<section class="title">
+				<h1><?php the_title(); ?></h1>
+			</section><!-- /title -->
+
+			<section class="inner">
+				<?php require('loop.php'); ?>
+				<?php the_content(); ?>
+			</section><!-- /inner -->
+		</div><!-- #container -->
+	
 	<div class="clear"></div>
-	<?php get_sidebar(); ?>
+</div><!-- /content -->
 <?php get_footer(); ?>

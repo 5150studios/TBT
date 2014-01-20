@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div class="content">
+	<?php echo get_quotes(); ?>	
 	<?php get_sidebar(); ?>
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : ?>

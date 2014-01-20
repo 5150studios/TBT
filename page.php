@@ -1,5 +1,6 @@
 <?php get_header(); the_post(); ?>
 	<div class="content">
+		<?php echo get_quotes(); ?>
 		<?php get_sidebar(); ?>
 		<div class="container">
 			<section class="title">

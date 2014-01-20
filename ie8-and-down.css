@@ -31,7 +31,7 @@ position: relative !important;
   position: absolute;
   top: 40px;
   width: 185px;
-display: block;
+  display: block;
 }
 
 #header #slideshow .bx-pager-item {
