@@ -1333,6 +1333,16 @@ div.wpcf-field {
   height: 100%;
   width: 100%;
 }
+.brands {
+  display: table;
+  margin: 0 auto;
+  width: 1160px;
+  position: relative;
+}
+.brands .slide {
+  float: left;
+  width: 250px;
+}
 .featureboxes .box {
   float: left;
   height: 100%;
@@ -1360,19 +1370,6 @@ div.wpcf-field {
 }
 span.strong {
   font-weight: 700;
-}
-.brands {
-  display: table;
-  margin: 0 auto;
-  padding: 30px;
-  width: 1160px;
-  position: relative;
-}
-.brands .slide {
-  float: left;
-  width: 250px;
-  height: 250px;
-  margin-right: 50px;
 }
 .instagram-product h3 {
   color: #2d2e2d;
