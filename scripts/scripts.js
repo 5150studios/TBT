@@ -16,6 +16,20 @@ jQuery(document).ready(function($) {
         preloadImages: 'all'
     });
 
+    $('.brands').bxSlider({
+        auto: true,
+        slideMargin: 100,
+        slideWidth: 250,
+        minSlides: 4,
+        maxSlides: 4,
+        moveSlides: 1,
+        randomStart: true,
+        autoHover: true,
+        pager: false,
+        controls: false,
+        preloadImages: 'all'
+    });
+
     $('.exercise-steps').bxSlider({
         auto: true,
         autoHover: true,

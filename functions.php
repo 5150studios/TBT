@@ -155,8 +155,8 @@
 			wp_enqueue_script('jquery');
 
 			//CSS
-			//wp_register_style( 'styles', get_template_directory_uri() . '/style.css', '', null, 'screen' );
-			wp_register_style( 'styles', get_template_directory_uri() . '/style.min.css', '', null, 'screen' );
+			wp_register_style( 'styles', get_template_directory_uri() . '/style.css', '', null, 'screen' );
+			//wp_register_style( 'styles', get_template_directory_uri() . '/style.min.css', '', null, 'screen' );
 	  		wp_enqueue_style( 'styles' );
 		}
 

@@ -11,6 +11,8 @@
 	<div class="brands">
 	  <div class="slide"><a href="http://www.goldendoor.com.au/" target="_blank"><img alt="Golden Door" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/golden-door.png"></a></div>
 	  <div class="slide"><a href="http://www.biggestloserretreat.com.au/" target="_blank"><img alt="The Biggest Loser" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/biggest-loser.png"></a></div>
+	   <div class="slide"><a href="http://www.hpc.qld.edu.au/" target="_blank"><img alt="HPC" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/hpc.jpg"></a></div>
+	   <div class="slide"><a href="http://hidow.com.au/" target="_blank"><img alt="HiDow" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/HiDow.jpg"></a></div>
 	</div><!-- /brands -->
 </div><!-- /brandsslider -->
 

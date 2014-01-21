@@ -228,14 +228,16 @@ img.aligncenter {
 }
 #instagram-wrap {
   background: none repeat scroll 0 0 #282927;
+  display: table;
   height: auto;
   padding: 30px;
   width: 100%;
 }
 #instagram {
   color: #282927;
-  height: 157px;
+  height: 150px;
   margin: 0 auto;
+  padding: 0 20px;
   width: 1160px;
 }
 #instagram h3 {
@@ -244,7 +246,7 @@ img.aligncenter {
   font-size: 24px;
   height: 150px;
   line-height: 150px;
-  margin-right: 30px;
+  margin: 0 30px 0 0;
 }
 #instagram img {
   border: 3px solid #FFFFFF;
@@ -260,6 +262,9 @@ img.aligncenter {
   margin: 0;
 }
 #instagram ul li {
+  margin: 0;
+}
+#instagram .bx-wrapper {
   margin: 0;
 }
 #instagram .bx-wrapper .bx-viewport {
@@ -1323,7 +1328,10 @@ div.wpcf-field {
 }
 /**** END SOCIALLINKS ****/
 .brandsslider {
-  background: #FFFFFF;
+  background: none repeat scroll 0 0 #FFFFFF;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 .featureboxes .box {
   float: left;
