@@ -555,6 +555,9 @@ margin: 0;
 .slantsubheading.military {
   color: #b8c0a9;
 }
+.slantsubheading.tbttravel {
+  color: #FFFFFF;
+}
 .slantmodel {
   color: #FFFFFF;
   font-size: 28px;
@@ -577,8 +580,11 @@ margin: 0;
 .headerslider .slide .slant.military {
   background: url("images/military-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
-.headerslider .slide .slant.tbtelite, .headerslider .slide .slant.tbttravel, .headerslider .slide .slant.tbtessentials {
+.headerslider .slide .slant.tbtelite, .headerslider .slide .slant.tbtessentials {
   background: url("images/green-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.headerslider .slide .slant.tbttravel {
+  background: url("images/grey-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 /**** END SLIDESHOW ****/
 /***** FEATURED IMAGE *****/
