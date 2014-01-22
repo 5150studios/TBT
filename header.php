@@ -36,7 +36,31 @@
 			</div><!-- /headerinner -->
 		</div><!-- /header -->	
 
-		<div class="headerslider" style="display:none">		
+		<div class="headerslider" style="display:none">	
+			<div class="slide">
+			  	<img alt="TBT Essentails" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-essentials.jpg">
+			  	<div class="slant tbtessentials">
+			  		<div class="slanttext">
+				  		<div class="slantheading">When Performance Is Everything</div>
+				  	</div>
+				  	<div class="slantfeature">	
+				  		<div class="slantsubheading tbtessentials">Core + Strength</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Essentials</div>
+				  	</div>
+			  	</div>
+			  </div>
+			  <div class="slide">
+			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite.jpg">
+			  	<div class="slant tbtelite">
+			  		<div class="slanttext">
+				  		<div class="slantheading">Suspend If You Dare</div>
+				  	</div>
+				  	<div class="slantfeature">	
+				  		<div class="slantsubheading tbtelite">Ultimate + Challenge</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Elite</div>
+				  	</div>
+			  	</div>
+			  </div>	
 			  <div class="slide">
 			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/military.jpg">
 			  	<div class="slant military">
@@ -53,11 +77,11 @@
 			  	<img alt="Pink Version" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/pink.jpg">
 			  	<div class="slant pink">
 			  		<div class="slanttext">
-				  		<div class="slantheading">Suspension is my release</div>
+				  		<div class="slantheading">Strong Is The New Sexy</div>
 				  	</div>
 				  	<div class="slantfeature">	
-				  		<div class="slantsubheading pink">Lean + Sexy</div>
-				  		<div class="slantmodel"><span class="strong">TBT</span>Tone</div>
+				  		<div class="slantsubheading pink">Fit + Fierce</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Pink</div>
 				  	</div>
 			  	</div>
 			  </div>
