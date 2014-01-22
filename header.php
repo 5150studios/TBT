@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=2.0">
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico">
+		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.png">
 		<?php wp_head(); ?>
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/ie8-and-down.css" />
