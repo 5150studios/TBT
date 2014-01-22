@@ -2067,7 +2067,7 @@ ul.products > .product {
 .brands .slide {
   height: 100%;
   margin-right: 5%;
-  max-width: 30%;
+  max-width: 100%;
 }
 .shailan-dropdown-menu-widget {
   float: right;
@@ -2160,6 +2160,9 @@ ul.products > .product {
 }
 }
 @media only screen and (max-width: 479px) {
+  body {
+  background: none repeat scroll 0 0 #FFFFFF;
+}
   #wrap {
   background: none repeat scroll 0 0 #FFFFFF;
   width: 100%;
@@ -2210,10 +2213,16 @@ ul.products > .product {
 .brands {
   width: 100%;
 }
+.brandsslider {
+  padding: 20px;
+}
 .brands .slide {
   height: 100%;
   margin-right: 5%;
-  max-width: 30%;
+  max-width: 100%;
+}
+.brandsslider .bx-wrapper {
+  margin: 0 auto;
 }
 #instagram {
   width: 100%;
