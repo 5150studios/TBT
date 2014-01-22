@@ -418,8 +418,8 @@ margin: 0;
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
-  height: 105px;
-  padding: 20px;
+  height: 95px;
+  padding: 10px 20px;
   position: absolute;
   top: 30px;
   width: 100%;
@@ -523,9 +523,9 @@ margin: 0;
   max-height: 670px;
 }
 .headerslider .slanttext {
-  left: 32%;
+  left: 34%;
   position: absolute;
-  top: 45%;
+  top: 35%;
   width: 260px;
 }
 .headerslider .slantfeature {
@@ -550,7 +550,7 @@ margin: 0;
   color: #b0d5ac;
 }
 .slantsubheading.pink {
-  color: #d5b7bf;
+  color: #ffe6ed;
 }
 .slantsubheading.military {
   color: #b8c0a9;
@@ -577,10 +577,7 @@ margin: 0;
 .headerslider .slide .slant.military {
   background: url("images/military-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
-.headerslider .slide .slant.tbtelite {
-  background: url("images/green-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-}
-.headerslider .slide .slant.tbtessentials {
+.headerslider .slide .slant.tbtelite, .headerslider .slide .slant.tbttravel, .headerslider .slide .slant.tbtessentials {
   background: url("images/green-slant.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 /**** END SLIDESHOW ****/
@@ -1334,7 +1331,11 @@ div.wpcf-field {
   background: none repeat scroll 0 0 #FFFFFF;
   display: table;
   height: 100%;
+  padding: 30px;
   width: 100%;
+}
+.brandsslider .bx-wrapper {
+  margin: 0 auto;
 }
 .brands {
   display: table;

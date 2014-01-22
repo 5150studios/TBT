@@ -9,11 +9,12 @@ jQuery(document).ready(function($) {
 
     $('.headerslider').show().bxSlider({
         auto: true,
-        autoHover: true,
         pager: false,
         auto: true,
         controls: false,
-        preloadImages: 'all'
+        preloadImages: 'all',
+        randomStart: true,
+        pause: 4500
     });
 
     $('.brands').bxSlider({
@@ -24,10 +25,10 @@ jQuery(document).ready(function($) {
         maxSlides: 4,
         moveSlides: 1,
         randomStart: true,
-        autoHover: true,
         pager: false,
         controls: false,
-        preloadImages: 'all'
+        preloadImages: 'all',
+
     });
 
     $('.exercise-steps').bxSlider({

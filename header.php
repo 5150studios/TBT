@@ -36,9 +36,25 @@
 			</div><!-- /headerinner -->
 		</div><!-- /header -->	
 
-		<div class="headerslider" style="display:none">	
+			<div class="headerslider" style="display:none">	
+				<div class="slide">
+					<a href="<?php echo get_permalink(229); ?>">
+						<img alt="Pink Version" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/pink.jpg">
+					</a>
+					<div class="slant pink">
+						<div class="slanttext">
+				  		<div class="slantheading">Strong Is The New Sexy</div>
+				  	</div>
+				  	<div class="slantfeature">	
+				  		<div class="slantsubheading pink">Fit + Fierce</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Pink</div>
+				  	</div>
+				</div>
+			</div>			
 			<div class="slide">
-			  	<img alt="TBT Essentails" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-essentials.jpg">
+			  	<a href="<?php echo get_permalink(214); ?>">
+			  		<img alt="TBT Essentials" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-essentials.jpg">
+			  	</a>
 			  	<div class="slant tbtessentials">
 			  		<div class="slanttext">
 				  		<div class="slantheading">When Performance Is Everything</div>
@@ -50,7 +66,9 @@
 			  	</div>
 			  </div>
 			  <div class="slide">
-			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite.jpg">
+			  	<a href="<?php echo get_permalink(225); ?>">
+			  		<img alt="TBT Elite" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-elite.jpg">
+			  	</a>
 			  	<div class="slant tbtelite">
 			  		<div class="slanttext">
 				  		<div class="slantheading">Suspend If You Dare</div>
@@ -60,28 +78,30 @@
 				  		<div class="slantmodel"><span class="strong">TBT</span>Elite</div>
 				  	</div>
 			  	</div>
-			  </div>	
+			  </div>
+			   <div class="slide">
+			  	<a href="<?php echo get_permalink(137); ?>">
+			  		<img alt="TBT Travel" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/tbt-travel.jpg">
+			  	</a>
+			  	<div class="slant tbttravel">
+			  		<div class="slanttext">
+				  		<div class="slantheading">Suspension Is My Release</div>
+				  	</div>
+				  	<div class="slantfeature">	
+				  		<div class="slantsubheading tbttravel">Anywhere + Anytime</div>
+				  		<div class="slantmodel"><span class="strong">TBT</span>Travel</div>
+				  	</div>
+			  	</div>
+			  </div>		
 			  <div class="slide">
 			  	<img alt="Military" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/military.jpg">
 			  	<div class="slant military">
 			  		<div class="slanttext">
-				  		<div class="slantheading">Perform At Your Peak</div>
+				  		<div class="slantheading">Coming Soon</div>
 				  	</div>
 				  	<div class="slantfeature">	
 				  		<div class="slantsubheading military">Tacticle + Power</div>
 				  		<div class="slantmodel"><span class="strong">TBT</span>Military</div>
-				  	</div>
-			  	</div>
-			  </div>
-			  <div class="slide">
-			  	<img alt="Pink Version" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/pink.jpg">
-			  	<div class="slant pink">
-			  		<div class="slanttext">
-				  		<div class="slantheading">Strong Is The New Sexy</div>
-				  	</div>
-				  	<div class="slantfeature">	
-				  		<div class="slantsubheading pink">Fit + Fierce</div>
-				  		<div class="slantmodel"><span class="strong">TBT</span>Pink</div>
 				  	</div>
 			  	</div>
 			  </div>
