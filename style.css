@@ -2039,7 +2039,7 @@ ul.products > li.product-category {
   min-height: 100%;
 }
 ul.products > .product {
-  min-height: 280px;
+  min-height: 310px;
   padding: 0;
   width: 29%;
 }
