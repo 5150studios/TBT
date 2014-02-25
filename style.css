@@ -2047,7 +2047,11 @@ ul.products > .product {
 #header {
   top: 0;
 }
-.headerslider .slide .slant.pink,.headerslider .slide .slant.military {
+.headerslider .slide .slant.tbtelite,
+.headerslider .slide .slant.tbtessentials,
+.headerslider .slide .slant.tbttravel,
+.headerslider .slide .slant.pink,
+.headerslider .slide .slant.military {
   left: 10%;
   right: 10%;
 }
@@ -2200,8 +2204,6 @@ a.button {
 #header {
   top: 0;
 }
-
-
 .slantheading {
   font-size: 22px;
   line-height: 1;
