@@ -2188,6 +2188,9 @@ ul.products > .product {
 a.button {
   width: 100%;
 }
+.container .woocommerce-ordering {
+  width: 100%;
+}
   #wrap {
   background: none repeat scroll 0 0 #FFFFFF;
   width: 100%;
