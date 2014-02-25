@@ -112,7 +112,7 @@ function getInstagram() {
                 jQuery('.instagramslider').bxSlider({
                     slideWidth: 150,
                     minSlides: 2,
-                    maxSlides: 5,
+                    maxSlides: 8,
                     moveSlides: 1,
                     slideMargin: 20,
                     pager: false,
