@@ -2190,7 +2190,7 @@ a.button {
   #wrap {
   background: none repeat scroll 0 0 #FFFFFF;
   width: 100%;
-  display: table;
+  display: block;
 }
 #header {
   top: 0;
