@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
 
     $('.brands').bxSlider({
         auto: true,
-        slideMargin: 50,
+        slideMargin: 25,
         slideWidth: 250,
         minSlides: 4,
         maxSlides: 4,
