@@ -2233,7 +2233,8 @@ ul.products > .product {
   width: 100%;
 }
 .brandsslider {
-  padding: 20px;
+  display: none;
+  padding: 0;
 }
 .brands .slide {
   height: 100%;
