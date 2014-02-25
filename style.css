@@ -2253,8 +2253,6 @@ a.button {
 .headerslider .slide .slant.military {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
-
-
 .gallery-item {
   border: 1px solid #FFFFFF;
   -webkit-box-shadow: 0 0 2px #AAAAAA;
@@ -2275,23 +2273,6 @@ a.button {
   width: 100%;
   min-height: 500px;
 }
-/*
-.brands {
-  width: 100%;
-  height: 250px;
-}
-.brandsslider {
-  padding: 0;
-}
-.brands .slide {
-  height: 100%;
-  margin-right: 5%;
-  max-width: 100%;
-}
-.brandsslider .bx-wrapper {
-  margin: 0 auto;
-}
-*/
 #instagram {
   height: 100%;
   padding: 0;
