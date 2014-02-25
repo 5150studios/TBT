@@ -374,7 +374,7 @@ input[type="submit"]::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,inp
   margin-left: 20px !important;
   width: 30% !important;
 }
-select, button {
+select, button, input[type="submit"], input[type="reset"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
