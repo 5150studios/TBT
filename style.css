@@ -1372,6 +1372,7 @@ div.wpcf-field {
   font-weight: 400;
   text-align: right;
   width: auto;
+  margin: 0;
 }
 .featureboxes .box img.boximg {
   border: 1px solid #CCCCCC;
@@ -2334,7 +2335,6 @@ img {
 }
 .featureboxes h2 {
   font-size: 18px;
-  margin: 0;
 }
 .product .images {
   padding: 2% 0;
