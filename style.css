@@ -2321,7 +2321,7 @@ img {
   width: auto;
 }
 .featureboxes .box img.boximg {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 .featureboxes h2 {
