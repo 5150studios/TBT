@@ -2277,6 +2277,7 @@ a.button {
 }
 .brands {
   width: 100%;
+  height: 250px;
 }
 .brandsslider {
   padding: 0;
