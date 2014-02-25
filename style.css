@@ -1386,8 +1386,9 @@ span.strong {
   font-weight: 700;
 }
 .instagram-product h3 {
-  color: #2d2e2d;
+  color: #2D2E2D;
   text-transform: none;
+  word-break: break-all;
 }
 .productcategories ul {
   display: table;
