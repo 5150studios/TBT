@@ -2287,6 +2287,9 @@ ul.products > .product {
   position: relative;
   width: 100%;
 }
+.dm-align-left table {
+  width: 100%;
+}
 .js #menu-main-menu {
   display: none;
 }
@@ -2387,6 +2390,7 @@ ul.products > .product {
 #header a.logo {
   margin: 0 auto;
   position: relative;
+  text-align: center;
   width: 100%;
 }
 .quotes {
