@@ -236,22 +236,24 @@ img.aligncenter {
 }
 #instagram {
   color: #282927;
-  height: 150px;
+  height: auto;
   margin: 0 auto;
   padding: 0 20px;
   width: 1160px;
 }
+
 #instagram h3 {
+  height: 50px;
+  line-height: 100%;
+  text-align: center;
+  width: 100%;
   color: #FFFFFF;
-  float: left;
   font-size: 24px;
-  height: 150px;
-  line-height: 150px;
-  margin: 0 30px 0 0;
 }
 #instagram img {
   border: 3px solid #FFFFFF;
   margin-right: 20px;
+  margin-bottom: 20px; 
   -webkit-box-shadow: 2px 2px 4px #000;
   box-shadow: 2px 2px 4px #000;
   width: auto;
@@ -1838,25 +1840,27 @@ ul.products > .product:nth-child(3n+3) {
   left: 36%;
   top: 78%;
 }
-#instagram h3 {
-  height: 50px;
-  line-height: 100%;
-  text-align: center;
-  width: 100%;
-}
-#instagram {
-  height: auto;
-  width: 100%;
-}
-#instagram img {
-  margin-bottom: 20px;
-}
-.product .images .woocommerce-main-image {
-  max-width: 50%;
-}
-.content {
-  width: 100%;
-}
+
+  #instagram {
+    width: 100%;
+  }
+
+  #instagram .bx-wrapper {
+    float: left;
+    margin: 0;
+  }
+  #instagram img {
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    width: 120px;
+  }
+
+
+
 #header,.innerfooter {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1911,29 +1915,6 @@ ul.products > .product:nth-child(3n+3) {
   }
   select.selectnav :: -ms-expand {
     display: none;
-  }
-  #instagram {
-    height: auto;
-    width: 100%;
-  }
-  #instagram h3 {
-    height: 50px;
-    line-height: 100%;
-    text-align: center;
-    width: 100%;
-  }
-  #instagram .bx-wrapper {
-    float: left;
-    margin: 0;
-  }
-  #instagram img {
-    border: 3px solid #FFFFFF;
-    -webkit-box-shadow: 2px 2px 4px #000000;
-    box-shadow: 2px 2px 4px #000000;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    max-width: 100%;
-    width: 120px;
   }
   .featureboxes h2 {
     font-size: 18px;
@@ -2455,7 +2436,7 @@ img {
 #footer .innerfooter ul,ol {
   margin: 0;
 }
-#footer .widgets .first,#footer .widgets .second,#footer .widgets .third,#footer .widgets .fourth,#footer #recent-posts-2,#footer #nav_menu-2 {
+#footer .widgets .first,#footer .widgets .second,#footer .widgets .third,#footerhttp://www.totalbodytraining.com.au/shop/tbt-suspension-systems/tbt-travel-suspension-system/ .widgets .fourth,#footer #recent-posts-2,#footer #nav_menu-2 {
   width: 100%;
 }
 #footer .widget {
