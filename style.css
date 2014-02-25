@@ -2045,6 +2045,8 @@ ul.products > .product {
   width: 29%;
 }
 #header {
+  background: none repeat scroll 0 0 #000000;
+  position: relative;
   top: 0;
 }
 .headerslider .slide .slant.tbtelite,
@@ -2052,8 +2054,9 @@ ul.products > .product {
 .headerslider .slide .slant.tbttravel,
 .headerslider .slide .slant.pink,
 .headerslider .slide .slant.military {
-  left: 10%;
-  right: 10%;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 .headerslider .slanttext {
   left: 40%;
