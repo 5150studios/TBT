@@ -829,6 +829,7 @@ margin: 0;
   padding-bottom: 8px;
 }
 #footer .widget {
+  position: relative;
   float: left;
   font-size: 12px;
   list-style: none outside none;
@@ -2166,8 +2167,8 @@ ul.products > .product {
 #footer input[type="submit"] {
   padding: 15px;
   position: absolute;
-  right: -12px;
-  top: 131px;
+  right: 0;
+  top: 0;
 }
 #footer p {
   text-align: center;
