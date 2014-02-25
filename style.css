@@ -2493,6 +2493,25 @@ img {
   list-style-type: none;
   margin: 0 10px 10px 0;
 }
+.post-item .post-header {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.post-loop {
+  width: 75%;
+}
+.post-item .date {
+  width: 20%;
+}
+.post-item .post-date .month {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+.post-item .post-date .day {
+  font-size: 24px;
+  padding-bottom: 4px;
+}
+
 }
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
   #header a.logo {
