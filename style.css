@@ -2058,13 +2058,16 @@ ul.products > .product {
   right: 0;
   width: 100%;
 }
+.slantheading {
+  font-size: 28px;
+}
 .headerslider .slanttext {
-  left: 40%;
-  top: 27%;
+  left: 35%;
+  top: 10%;
 }
 .headerslider .slantfeature {
-  left: 36%;
-  top: 70%;
+  left: 35%;
+  top: 65%;
 }
 .content {
   width: 100%;
