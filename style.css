@@ -2200,26 +2200,53 @@ a.button {
 #header {
   top: 0;
 }
-.headerslider .slide .slant.pink,.headerslider .slide .slant.military {
-  left: -47%;
-  right: -47%;
-}
-.headerslider .slanttext {
-  left: 45%;
-  top: 30%;
-}
+
+
 .slantheading {
   font-size: 22px;
   line-height: 1;
 }
-.headerslider .slantfeature {
-  left: 36%;
-  top: 68%;
+.slantsubheading {
+  text-align: center;
 }
 .slantmodel {
   font-size: 18px;
   line-height: 1;
+  text-align: center;
 }
+.headerslider .slantfeature {
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.headerslider .slide .slant {
+  height: 100%;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.headerslider .slanttext {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.headerslider .slide .slant.tbtelite,
+.headerslider .slide .slant.tbtessentials,
+.headerslider .slide .slant.tbttravel,
+.headerslider .slide .slant.pink,
+.headerslider .slide .slant.military {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
 .gallery-item {
   border: 1px solid #FFFFFF;
   -webkit-box-shadow: 0 0 2px #AAAAAA;
