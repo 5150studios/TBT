@@ -2183,6 +2183,9 @@ ul.products > .product {
   body {
   background: none repeat scroll 0 0 #FFFFFF;
 }
+a.button {
+  width: 100%;
+}
   #wrap {
   background: none repeat scroll 0 0 #FFFFFF;
   width: 100%;
@@ -2276,7 +2279,6 @@ ul.products > .product {
   top: 0;
   width: 100%;
 }
-
 #headerinner {
   margin: 0;
   width: 100%;
@@ -2391,6 +2393,7 @@ ul.products > .product {
   margin: 0 auto;
   position: relative;
   text-align: center;
+  background-position: center center;
   width: 100%;
 }
 .quotes {
