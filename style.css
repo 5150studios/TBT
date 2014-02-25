@@ -240,6 +240,7 @@ img.aligncenter {
   margin: 0 auto;
   padding: 0 20px;
   width: 1160px;
+  overflow: hidden;  
 }
 #instagram h3 {
   color: #FFFFFF;
