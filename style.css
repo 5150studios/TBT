@@ -181,6 +181,7 @@ img.aligncenter {
 }
 .home {
   width: 100%;
+  display: table;
 }
 .container .inner {
   display: inline-block;
