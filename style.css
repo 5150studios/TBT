@@ -2255,7 +2255,7 @@ a.button {
 .content .woocommerce .cart-collaterals .cart_totals, .content .woocommerce-page .cart-collaterals .cart_totals {
   width: 100%;
 }
-.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+.content .woocommerce .col2-set .col-1, .content .woocommerce-page .col2-set .col-1, .content .woocommerce .col2-set .col-2, .content .woocommerce-page .col2-set .col-2 {
   width: 100%;
 }
 .gallery-item {
